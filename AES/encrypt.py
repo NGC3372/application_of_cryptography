@@ -1,6 +1,6 @@
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
-from byte_to_str import  bytes_to_str
+from byte_to_str import bytes_to_str
 
 
 data = str.encode(open('src/data', 'r').read(), 'utf-8')
